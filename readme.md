@@ -2,6 +2,8 @@
 
 ## scenario- when did the speaker first need to use docker
 
+![begining](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/1.PNG)
+
 #### project
 
 - webServer: node js
@@ -20,3 +22,5 @@
 - the architecture of the applications changed over times. The speaker had to upgrade to newer versions of these components or change the database etc
 - and everytime, something changed; the speaker had to go the same process of checking compatibility between these various components and the underlying infrastructure	
 - this compatible matrix issue issue is usually referred to as "The Matrix from Hell!!"
+
+![The Matrix from Hell!!](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/2.PNG)
