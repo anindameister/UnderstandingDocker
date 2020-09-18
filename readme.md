@@ -29,4 +29,4 @@
 
 3. whenever, there was a new developer on board, it was difficult to setup the new environment
 
-
+![new developer intro!](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/3.PNG)
