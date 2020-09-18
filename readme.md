@@ -26,3 +26,7 @@
 - this compatible matrix issue issue is usually referred to as "The Matrix from Hell!!"
 
 ![The Matrix from Hell!!](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/2.PNG)
+
+3. whenever, there was a new developer on board, it was difficult to setup the new environment
+
+
