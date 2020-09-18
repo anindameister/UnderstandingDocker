@@ -26,3 +26,6 @@
 - this compatible matrix issue issue is usually referred to as "The Matrix from Hell!!"
 
 ![The Matrix from Hell!!](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/2.PNG)
+
+
+![new developer joined](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/3.PNG)
