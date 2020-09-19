@@ -41,3 +41,4 @@
 - all of the above made the life of the group, in regards to developing,building and shipping the application; really difficult
 - hence there was a requirement of something which would help the group with the compatibility issue
 
+![new developer problems above](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/.PNG)
