@@ -59,6 +59,13 @@
 
 ![The Docker](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/7.PNG)
 
+5. what are containers
+
+![containers](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/8.PNG)
+
+
+
+
 
 
 
