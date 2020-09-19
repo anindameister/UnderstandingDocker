@@ -49,3 +49,4 @@
 
 ![The Docker](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/5.PNG)
 
+- with docker, the speaker was able to learn each compoents in a separate container with it's own libraries and it's own dependencies
