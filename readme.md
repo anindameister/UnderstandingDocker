@@ -57,6 +57,8 @@
 - the group had to just build the docker configuration once 
 - and now all the developers were able to get started with a simple docker run command irrespective of what the underlying operating system they were on; all they needed to make sure that they had docker installed on their systems
 
+![The Docker](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/7.PNG)
+
 
 
 
