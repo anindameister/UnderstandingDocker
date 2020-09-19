@@ -101,9 +101,20 @@
 - for that, you'd require docker on a windows server
 - question: isn't the above situation, a disadvantage; not being able to run another kernel on the OS
 - the answer is no, because unlike hypervisors; docker is not meant to virtualise and run different OS and kernels on the same hardware
+- the main purpose of docker is containerise application and to ship them to run them
 - hypervisors
 
 ![hypervisors](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/13.PNG)
+
+- vitualisation details: 5/45 URL: https://github.com/anindameister/UnderstandingDocker/blob/master/files/cm2%20(1).pdf , seems that download is required
+
+#### difference between virtual machines and containers
+
+- docker, we have the 
+1. underlying hardware
+2. OS
+3. docker installed on the OS
+4. docker can then manager the libraries and dependencies,alone
 
 
 
