@@ -89,7 +89,7 @@
 - meaning
 1. Situation:- ubuntu system with docker installed on it. 
 
-![ubuntu system with docker installed on it](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/12.PNG)
+![ubuntu system with docker installed on it](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/14.PNG)
 
 - docker has the capability to run any flavour of OS on top it, as long as they are all based on the same kernel in this case, Linux
 - if the underlying operating system is ubuntu, docker can run a container based on another distribution like Debian, Fedora, CentOS, SUCI.
@@ -115,6 +115,8 @@
 2. OS
 3. docker installed on the OS
 4. docker can then manager the libraries and dependencies,alone
+
+![docker](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/15.PNG)
 
 
 
