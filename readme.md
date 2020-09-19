@@ -132,6 +132,10 @@
 
 ![difference between virtual machines and containers](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/16.PNG)
 
+- handwritten docker status with absolutely comparison in regards to having OS as a parameter
+
+![difference between virtual machines and containers](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/23.jpeg)
+
 11. important to note that dockers has less isolation more resources are shared between the containers like the kernels whereas VMs have complete isolation from each other
 12. since VMs dont rely on underlying OS or kernel, we can have different kinds of OS like windows based or linux based on the same hypervisor whereas it is not possible on a single docker host
 
