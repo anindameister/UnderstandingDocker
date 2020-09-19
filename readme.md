@@ -118,11 +118,66 @@
 
 ![docker](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/15.PNG)
 
+-vm
+1. os on the underlying hardware
+2. hypervisor like ESX or virtualisation of some kind
+3. and then the VMs
+4. as we can see, each VMs has it's own operating systems inside it; 
+5. then the dependencies
+6. and then the applications
+7. this overhead causes higher utilisation of resources as there are mutiple virtual os and kernels running
+8. VMs also consume higher disk space as each VM in heavy, like GBs in size
+9. whereas docker containers are lightweight and usually in MBs in size
+10. point 9. let's docker containers to boot up faster like in seconds whereas VMs take minutes to boot up because they need to boot up the entire OS
 
+![difference between virtual machines and containers](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/16.PNG)
 
+11. important to note that dockers has less isolation more resources are shared between the containers like the kernels whereas VMs have complete isolation from each other
+12. since VMs dont rely on underlying OS or kernel, we can have different kinds of OS like windows based or linux based on the same hypervisor whereas it is not possible on a single docker host
 
+#### how is it done??
 
+1. there are a lot of containerised applications, readily available as of today
+2. so most organisers get their product containerised and make it available in a public docker registry called dockerhub or docker store
 
+![public docker registry called dockerhub or docker store](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/17.PNG)
+
+3. we can find the images of most common OS, databases and other services and tools to identify the images, you need and you install docker on your host, bringing up an application stack is as easy as running the docker run command with the name of the image
+
+![public docker registry called dockerhub or docker store](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/18.PNG)
+
+![public docker registry called dockerhub or docker store](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/19.PNG)
+
+4. in our case, running a docker run Ansible command  will run an instance of Ansible on the docker host
+
+```
+docker run ansible
+```
+
+5. we can also run instance of mongoDB, nodeJS, Redis with docker run command
+
+6. when we run node js, we just need to point to the code repository on the host
+
+7. if we need to run multiple instances of the webservice, simply add as many instances as you need and configure a load balancer of some kind in the front
+
+![run multiple instances of the webservice](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/20.PNG)
+
+8. in case one of the instance, is to fail, then we got to simply destroy that instance and launch a new instance
+
+![simply destroy that instance and launch a new instance](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/21.PNG)
+
+9. there are other solutions to handle such cases, LATERS
+
+#### containers vs image
+
+1. an image is a package of template just like a VM, that we mighgt have come across in the virtualisation world
+2. an image is used to create one or more containers
+3. containers are running instances of images that are isolated and have their own environment of set of processes
+4. a lot of products have been dockerised already
+5. in case you're not able to find what you're looking for; you can create an image yourself and push it to the dockerhub repository making it available for the public
+
+![containers vs image](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/22.PNG)
+ 
 
 
 
