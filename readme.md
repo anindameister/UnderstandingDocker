@@ -102,9 +102,9 @@
 - question: isn't the above situation, a disadvantage; not being able to run another kernel on the OS
 - the answer is no, because unlike hypervisors; docker is not meant to virtualise and run different OS and kernels on the same hardware
 - the main purpose of docker is containerise application and to ship them to run them
-- hypervisors
+- Hypervisor : a tool which control and distributes the hardware resources to each OS according to their needs
 
-![hypervisors](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/13.PNG)
+
 
 - vitualisation details: 5/45 URL: https://github.com/anindameister/UnderstandingDocker/blob/master/files/cm2%20(1).pdf , seems that download is required
 
