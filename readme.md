@@ -91,6 +91,23 @@
 
 ![ubuntu system with docker installed on it](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/12.PNG)
 
+- docker has the capability to run any flavour of OS on top it, as long as they are all based on the same kernel in this case, Linux
+- if the underlying operating system is ubuntu, docker can run a container based on another distribution like Debian, Fedora, CentOS, SUCI.
+- each docker container has that additional software that makes these OS different and docker utilises the underlying kernel of kernel host which works with all the OS above.
+
+2. situation- OS that do not share the same kernel as this. Eg: Windows
+
+- so you wont be able to run a windows based container on a docker host with Linux OS on it
+- for that, you'd require docker on a windows server
+- question: isn't the above situation, a disadvantage; not being able to run another kernel on the OS
+- the answer is no, because unlike hypervisors; docker is not meant to virtualise and run different OS and kernels on the same hardware
+- hypervisors
+
+![hypervisors](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/13.PNG)
+
+
+
+
 
 
 
