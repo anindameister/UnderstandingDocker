@@ -80,6 +80,12 @@
 
 - while the os kernel remains the same, which is linux in the case of ubuntu, fedora, CentOS, SUCI; it's the software above it which makes the OS different
 - this software may consist of different user interface, drivers, compilers, file managers, developer tool etc.
+- so therefore, we have a common linux kernel shared across all operating systems and some custom software that differentiates operating systems from each other
+
+#### docker containers share the underlying kernel
+- meaning
+1. Situation:- ubuntu system with docker installed on it. 
+
 
 
 
