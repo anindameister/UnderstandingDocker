@@ -50,6 +50,15 @@
 ![The Docker](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/5.PNG)
 
 - with docker, the speaker was able to learn each compoents in a separate container with it's own libraries and it's own dependencies
+- all on the same VM and the OS, but within separate environment or containers
 
 ![The Docker](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/6.PNG)
+
+- the group had to just build the docker configuration once 
+- and now all the developers were able to get started with a simple docker run command irrespective of what the underlying operating system they were on; all they needed to make sure that they had docker installed on their systems
+
+
+
+
+
 
