@@ -30,3 +30,14 @@
 3. whenever, there was a new developer on board, it was difficult to setup the new environment
 
 ![new developer intro!](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/3.PNG)
+
+- difficult to setup a new environment
+- developers have to follow a large set of instructions and run hundreds of commands to finally setup their environment
+- developers had to check that they were using the right operating system, the right versions of each of these components
+- each developer had to set all theat up, by themself, each time 
+- the group might also have a different test and development environment.
+- one maybe comfortable to use one OS, and the other new developer maybe comfortable with some other one 
+- and so there's no guarantee that the apps that the group is building is gonna run in the same way in different environments
+- all of the above made the life of the group, in regards to developing,building and shipping the application; really difficult
+- hence there was a requirement of something which would help the group with the compatibility issue
+
