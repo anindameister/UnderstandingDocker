@@ -47,3 +47,5 @@
 
 4. The Docker
 
+![The Docker](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/5.PNG)
+
