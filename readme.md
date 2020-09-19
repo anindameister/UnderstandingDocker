@@ -83,8 +83,13 @@
 - so therefore, we have a common linux kernel shared across all operating systems and some custom software that differentiates operating systems from each other
 
 #### docker containers share the underlying kernel
+
+![kernels](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/11.PNG)
+
 - meaning
 1. Situation:- ubuntu system with docker installed on it. 
+
+![ubuntu system with docker installed on it](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/12.PNG)
 
 
 
