@@ -63,6 +63,21 @@
 
 ![containers](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/8.PNG)
 
+- containers are completely isolated environments as in they can have their own processes or services, their own networking interfaces, their own mounts just like virtual machines except they all share the same operating system kernels
+- kernels
+
+![kernels](https://github.com/anindameister/UnderstandingDocker/blob/master/snaps/9.PNG)
+
+- different types of containers are LXC/LXD/LX EFS etc
+- docker utilises LXC containers
+- setting up these containers is hard as they're very low level 
+- so docker gives high level powerful tools, thereby easing the work of endusers like us
+- types of OS https://www.geeksforgeeks.org/types-of-operating-systems/
+- OS like ubuntu, fedora, CentOS, SUCI comnsists of two things- OS kernel and set of software
+- os kernel is responsible to interact with the underlying hardware
+- while the os kernel remains the same, which is linux in the case of ubuntu, fedora, CentOS, SUCI; it's the software above it which makes the OS different
+- this software may consist of different user interface, drivers, compilers, file managers, developer tool etc.
+
 
 
 
